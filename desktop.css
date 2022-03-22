@@ -7,3 +7,7 @@ body {
     "main main nav"
     "footer footer footer"
 }
+
+.on,.off {
+    display: none;
+}
