@@ -4,12 +4,12 @@
 }
 
 nav {
-    background-color: yellow;
+    background-color: rgb(92, 179, 179);
     grid-area: nav;
 }
 
 header {
-    background-color: green;
+    background-color: rgb(99, 187, 99);
     grid-area: header;
 }
 
@@ -19,6 +19,6 @@ main {
 }
 
 footer {
-    background-color: aqua;
+    background-color: rgb(148, 148, 228);
     grid-area: footer;
 }

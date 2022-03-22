@@ -1,13 +1,47 @@
 body {
-    background-color: red;
+    
     display: grid;
     grid-template-columns: 50% 30% 20%;
     grid-template-rows: auto;
     grid-template-areas: 
+    "header header header"
     "main main nav"
     "footer footer footer"
 }
 
 .on,.off {
     display: none;
+}
+/* HOMEPAGE STYLE DESKTOP */
+.index {
+    background-color: aqua;
+}
+.index .mainL img {
+    height: 30em;
+    width: 30em;
+    border-radius: 100%;
+    box-shadow: 5px 10px #888888;
+}
+.index {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "mainL mainR";
+    height: 75vh;
+}
+
+.index .mainL {
+    grid-area: mainL;
+    dIsplay: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.index .mainR {
+    grid-area: mainR;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
